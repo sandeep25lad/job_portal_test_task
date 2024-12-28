@@ -6,19 +6,19 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="bg-white border rounded-lg border-gray-100 shadow-sm p-5 space-y-5">
                 <h3>Total Job Postings</h3>
-                <p class="text-5xl font-bold">4.1k</p>
+                <p class="text-5xl font-bold">{{ $jobCount }}</p>
             </div>
             <div class="bg-white border rounded-lg border-gray-100 shadow-sm p-5 space-y-5">
-                <h3>Placed Candidates</h3>
-                <p class="text-5xl font-bold">12.5k</p>
+                <h3>Total Users</h3>
+                <p class="text-5xl font-bold">{{ $userCount }}</p>
             </div>
             <div class="bg-white border rounded-lg border-gray-100 shadow-sm p-5 space-y-5">
-                <h3>Total Job Postings</h3>
-                <p class="text-5xl font-bold">4.1k</p>
+                <h3>Total Skills</h3>
+                <p class="text-5xl font-bold">{{ $skillCount }}</p>
             </div>
             <div class="bg-white border rounded-lg border-gray-100 shadow-sm p-5 space-y-5">
-                <h3>Placed Candidates</h3>
-                <p class="text-5xl font-bold">12.5k</p>
+                <h3>Total Companies</h3>
+                <p class="text-5xl font-bold">{{ $uniqueCompanyCount }}</p>
             </div>
         </div>
     </div>
